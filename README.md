@@ -1,3 +1,5 @@
+> [asciinema.player.asciicast][source] as npm module
+
 # load-asciicast
 
 * Normalize asciicast formats `v0`, `v1`, `v2`
@@ -44,3 +46,5 @@ lein cljsbuild auto
 npm install
 npm start
 ```
+
+[source]: https://github.com/asciinema/asciinema-player

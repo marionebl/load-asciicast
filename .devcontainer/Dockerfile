@@ -1,0 +1,1 @@
+FROM theasp/clojurescript-nodejs

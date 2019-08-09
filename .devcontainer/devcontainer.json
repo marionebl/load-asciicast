@@ -1,0 +1,8 @@
+{
+    "name": "ocaml",
+    "dockerFile": "./Dockerfile",
+    "extensions": [
+        "editorconfig.editorconfig",
+        "ms-azuretools.vscode-docker"
+    ]
+}

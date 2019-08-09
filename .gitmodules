@@ -1,6 +1,8 @@
 [submodule "asciinema-player"]
 	path = asciinema-player
 	url = https://github.com/asciinema/asciinema-player.git
+	branch =  v2.6.1
 [submodule "vt"]
 	path = vt
 	url = https://github.com/asciinema/vt.git
+	branch = e73c392e1aef25144231de4f5f87d72463ca9ccd

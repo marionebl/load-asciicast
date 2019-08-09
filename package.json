@@ -1,6 +1,6 @@
 {
   "name": "load-asciicast",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Load, normalize and init asciinema asciicast data",
   "files": [
     "index.js"

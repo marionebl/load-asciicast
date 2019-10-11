@@ -23,7 +23,17 @@ const read = promisify(fs.readFile);
 
 (async () => {
   const data = String(await read('asciicast.json'));
-  const asciicast = await load(data, 80, 25);
+
+  // Optional;
+  // if width, height, and idle are not specified, they will be taken from data
+  const options = {
+    width: 80,  // Screencast width
+    height: 25, // Screencast height
+    idle: 2.5,  // Idle time limit in seconds
+    fps: 30     // Frames per second limit, see https://github.com/marionebl/svg-term/issues/13
+  };
+
+  const asciicast = await load(data, options);
   // => {...}
 })();
 ```

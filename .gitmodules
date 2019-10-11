@@ -5,4 +5,4 @@
 [submodule "vt"]
 	path = vt
 	url = https://github.com/asciinema/vt.git
-	branch = e73c392e1aef25144231de4f5f87d72463ca9ccd
+	branch = 83bf644ee1f36ffc5a5ee4c5d0185cc1b1b222db

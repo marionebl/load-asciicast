@@ -1,15 +1,15 @@
-(defproject loadasciicast "1.0.0"
+(defproject loadasciicast "2.0.0"
   :description "load asciinema asciicast data"
   :url "https://github.com/marionebl/load-asciicast"
   :license {:name "MIT"
             :url "https://opensource.org/licenses/MIT"}
 
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.671"]
-                 [org.clojure/core.match "0.3.0-alpha4"]
-                 [prismatic/schema "1.1.6"]]
+  :dependencies [[org.clojure/clojure "1.10.1"]
+                 [org.clojure/clojurescript "1.10.520"]
+                 [org.clojure/core.match "0.3.0"]
+                 [prismatic/schema "1.1.12"]]
 
-  :plugins [[lein-cljsbuild "1.1.5"]]
+  :plugins [[lein-cljsbuild "1.1.7"]]
 
   :min-lein-version "2.5.3"
 

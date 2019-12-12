@@ -17,8 +17,8 @@ test('inits v0 string asciicast', async t => {
   t.is(actual.frames.length, 3);
 });
 
-test.failing('inits v0 data asciicast', async t => {
-  const data = JSON.parse(await fixture('v0.json'));
+test('inits v0 data asciicast', async t => {
+  const data = await fixture('v0.json');
   const actual = await load(data);
 
   t.is(actual.width, 6);
@@ -37,8 +37,8 @@ test('inits v1 string asciicast', async t => {
   t.is(actual.frames.length, 3);
 });
 
-test.failing('inits v1 data asciicast', async t => {
-  const data = JSON.parse(await fixture('v1.json'));
+test('inits v1 data asciicast', async t => {
+  const data = await fixture('v1.json');
   const actual = await load(data);
 
   t.is(actual.width, 80);
@@ -57,8 +57,8 @@ test('inits v2 string asciicast', async t => {
   t.is(actual.frames.length, 3);
 });
 
-test.failing('inits v2 data asciicast', async t => {
-  const data = JSON.parse(await fixture('v2.json'));
+test('inits v2 data asciicast', async t => {
+  const data = await fixture('v2.json');
   const actual = await load(data);
 
   t.is(actual.width, 80);
